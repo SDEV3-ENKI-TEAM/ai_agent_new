@@ -20,14 +20,14 @@ CHROMA_COLLECTION=my_log_db
 CHROMA_OPENAI_API_KEY=sk~
 
 # Kafka
-# 도커 내부에서 실행 시: kafka:9092
-# 로컬에서 실행 시: localhost:9092
+### 도커 내부에서 실행 시: kafka:9092
+### 로컬에서 실행 시: localhost:9092
 KAFKA_BOOTSTRAP=kafka:9092
 
 RAW_TOPIC=raw_trace
-SUMMARY_TOPIC=trace_summary   # 새로운 요약 토픽
+SUMMARY_TOPIC=trace_summary   
 
-# Trace 처리 parameter
-TRACE_INACTIVITY_SEC=5        # 트레이스가 끊겼다고 보는 시간 (초)
-TRACE_MAX_EVENTS=500          # 트레이스당 최대 이벤트 수
-FLUSH_TICK_SEC=1.0            # flush 주기 (초)
+### Trace 처리 parameter
+TRACE_INACTIVITY_SEC=5        
+TRACE_MAX_EVENTS=500          
+FLUSH_TICK_SEC=1.0            
