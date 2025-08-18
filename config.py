@@ -11,9 +11,10 @@ CHROMA_HOST = os.getenv("CHROMA_HOST", "localhost")
 CHROMA_PORT = int(os.getenv("CHROMA_PORT", "8000"))
 CHROMA_COLLECTION = os.getenv("CHROMA_COLLECTION", "my_log_db")
 
-KAFKA_BOOTSTRAP = os.getenv("KAFKA_BOOTSTRAP", "localhost:9092")
+
+KAFKA_BOOTSTRAP = os.getenv("KAFKA_BOOTSTRAP", "127.0.0.1:29092")
 RAW_TOPIC = os.getenv("RAW_TOPIC", "raw_trace")
 
-TRACE_INACTIVITY_SEC = float(os.getenv("TRACE_INACTIVITY_SEC", "5"))
+TRACE_INACTIVITY_SEC = float(os.getenv("TRACE_INACTIVITY_SEC", "5"))  # 5초 단위로 받아오게됨
 TRACE_MAX_EVENTS = int(os.getenv("TRACE_MAX_EVENTS", "500"))
 FLUSH_TICK_SEC = float(os.getenv("FLUSH_TICK_SEC", "1.0"))
