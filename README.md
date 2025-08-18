@@ -31,3 +31,6 @@ SUMMARY_TOPIC=trace_summary
 TRACE_INACTIVITY_SEC=5        
 TRACE_MAX_EVENTS=500          
 FLUSH_TICK_SEC=1.0            
+
+
+실행시 -> python3 kafka_trace_consumer.py 
