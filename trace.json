@@ -1,0 +1,1168 @@
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          { "key": "service.name", "value": { "stringValue": "sysmon-agent" } },
+          {
+            "key": "service.instance.id",
+            "value": { "stringValue": "01455c06-59f9-46d4-9ef8-4afe2bb3e8c0" }
+          },
+          {
+            "key": "telemetry.sdk.name",
+            "value": { "stringValue": "opentelemetry" }
+          },
+          {
+            "key": "telemetry.sdk.language",
+            "value": { "stringValue": "dotnet" }
+          },
+          {
+            "key": "telemetry.sdk.version",
+            "value": { "stringValue": "1.9.0" }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "scope": { "name": "sysmon.etw" },
+          "spans": [
+            {
+              "traceId": "9ea515337ffcae80c49cdd0ca81a3b14",
+              "spanId": "ed72cc20acb2a999",
+              "parentSpanId": "65dda052bbe9da3c",
+              "flags": 257,
+              "name": "Code.exe@Dnsquery(rule:DnsQuery)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145189530065900",
+              "endTimeUnixNano": "1755145189534981100",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": { "stringValue": "Dnsquery(rule:DnsQuery)" }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "908" } },
+                { "key": "ID", "value": { "intValue": "22" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:46" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "-" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:46.768" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-62aa-689d-8016-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "19084" } },
+                {
+                  "key": "QueryName",
+                  "value": {
+                    "stringValue": "telemetry.individual.githubcopilot.com"
+                  }
+                },
+                { "key": "QueryStatus", "value": { "stringValue": "0" } },
+                {
+                  "key": "QueryResults",
+                  "value": {
+                    "stringValue": "type: 5 copilot-telemetry-service.githubusercontent.com;type: 5 glb-db52c2cf8be544.github.com;::ffff:140.82.114.21;"
+                  }
+                },
+                {
+                  "key": "Image",
+                  "value": {
+                    "stringValue": "C:\\Users\\임성순\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                  }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } }
+              ],
+              "status": {}
+            },
+            {
+              "traceId": "9ea515337ffcae80c49cdd0ca81a3b14",
+              "spanId": "98e78e4a67cc3594",
+              "parentSpanId": "65dda052bbe9da3c",
+              "flags": 257,
+              "name": "Code.exe@Networkconnectiondetected(rule:NetworkConnect)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145189535003300",
+              "endTimeUnixNano": "1755145189536026000",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": {
+                    "stringValue": "Networkconnectiondetected(rule:NetworkConnect)"
+                  }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "908" } },
+                { "key": "ID", "value": { "intValue": "3" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:46" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "Usermode" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:46.986" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-62aa-689d-8016-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "19084" } },
+                {
+                  "key": "Image",
+                  "value": {
+                    "stringValue": "C:\\Users\\임성순\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                  }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } },
+                { "key": "Protocol", "value": { "stringValue": "tcp" } },
+                { "key": "Initiated", "value": { "boolValue": true } },
+                { "key": "SourceIsIpv6", "value": { "boolValue": false } },
+                {
+                  "key": "SourceIp",
+                  "value": { "stringValue": "192.168.0.12" }
+                },
+                {
+                  "key": "SourceHostname",
+                  "value": { "stringValue": "ruffy" }
+                },
+                { "key": "SourcePort", "value": { "intValue": "-6306" } },
+                { "key": "SourcePortName", "value": { "stringValue": "-" } },
+                { "key": "DestinationIsIpv6", "value": { "boolValue": false } },
+                {
+                  "key": "DestinationIp",
+                  "value": { "stringValue": "140.82.114.21" }
+                },
+                {
+                  "key": "DestinationHostname",
+                  "value": { "stringValue": "lb-140-82-114-21-iad.github.com" }
+                },
+                { "key": "DestinationPort", "value": { "intValue": "443" } },
+                {
+                  "key": "DestinationPortName",
+                  "value": { "stringValue": "https" }
+                }
+              ],
+              "status": {}
+            },
+            {
+              "traceId": "9ea515337ffcae80c49cdd0ca81a3b14",
+              "spanId": "56ee0351e3bb97ea",
+              "parentSpanId": "65dda052bbe9da3c",
+              "flags": 257,
+              "name": "Code.exe@Networkconnectiondetected(rule:NetworkConnect)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145189541056100",
+              "endTimeUnixNano": "1755145189541993000",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": {
+                    "stringValue": "Networkconnectiondetected(rule:NetworkConnect)"
+                  }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "908" } },
+                { "key": "ID", "value": { "intValue": "3" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:47" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "Usermode" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:48.707" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-62a8-689d-7d16-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "23612" } },
+                {
+                  "key": "Image",
+                  "value": {
+                    "stringValue": "C:\\Users\\임성순\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                  }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } },
+                { "key": "Protocol", "value": { "stringValue": "tcp" } },
+                { "key": "Initiated", "value": { "boolValue": true } },
+                { "key": "SourceIsIpv6", "value": { "boolValue": false } },
+                {
+                  "key": "SourceIp",
+                  "value": { "stringValue": "192.168.0.12" }
+                },
+                {
+                  "key": "SourceHostname",
+                  "value": { "stringValue": "ruffy" }
+                },
+                { "key": "SourcePort", "value": { "intValue": "-6303" } },
+                { "key": "SourcePortName", "value": { "stringValue": "-" } },
+                { "key": "DestinationIsIpv6", "value": { "boolValue": false } },
+                {
+                  "key": "DestinationIp",
+                  "value": { "stringValue": "52.168.117.175" }
+                },
+                {
+                  "key": "DestinationHostname",
+                  "value": { "stringValue": "-" }
+                },
+                { "key": "DestinationPort", "value": { "intValue": "443" } },
+                {
+                  "key": "DestinationPortName",
+                  "value": { "stringValue": "https" }
+                }
+              ],
+              "status": {}
+            },
+            {
+              "traceId": "9ea515337ffcae80c49cdd0ca81a3b14",
+              "spanId": "c067bb2849765a71",
+              "parentSpanId": "65dda052bbe9da3c",
+              "flags": 257,
+              "name": "Code.exe@Networkconnectiondetected(rule:NetworkConnect)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145189542001100",
+              "endTimeUnixNano": "1755145189542787100",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": {
+                    "stringValue": "Networkconnectiondetected(rule:NetworkConnect)"
+                  }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "908" } },
+                { "key": "ID", "value": { "intValue": "3" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:48" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "Usermode" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:48.872" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-62aa-689d-8016-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "19084" } },
+                {
+                  "key": "Image",
+                  "value": {
+                    "stringValue": "C:\\Users\\임성순\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                  }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } },
+                { "key": "Protocol", "value": { "stringValue": "tcp" } },
+                { "key": "Initiated", "value": { "boolValue": true } },
+                { "key": "SourceIsIpv6", "value": { "boolValue": false } },
+                {
+                  "key": "SourceIp",
+                  "value": { "stringValue": "192.168.0.12" }
+                },
+                {
+                  "key": "SourceHostname",
+                  "value": { "stringValue": "ruffy" }
+                },
+                { "key": "SourcePort", "value": { "intValue": "-6302" } },
+                { "key": "SourcePortName", "value": { "stringValue": "-" } },
+                { "key": "DestinationIsIpv6", "value": { "boolValue": false } },
+                {
+                  "key": "DestinationIp",
+                  "value": { "stringValue": "20.189.173.9" }
+                },
+                {
+                  "key": "DestinationHostname",
+                  "value": { "stringValue": "-" }
+                },
+                { "key": "DestinationPort", "value": { "intValue": "443" } },
+                {
+                  "key": "DestinationPortName",
+                  "value": { "stringValue": "https" }
+                }
+              ],
+              "status": {}
+            },
+            {
+              "traceId": "9ea515337ffcae80c49cdd0ca81a3b14",
+              "spanId": "ad88f60483bc3fa0",
+              "parentSpanId": "d79cda5116864bf7",
+              "flags": 257,
+              "name": "docker.exe@ProcessCreate(rule:ProcessCreate)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145190540205000",
+              "endTimeUnixNano": "1755145190543091200",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": {
+                    "stringValue": "ProcessCreate(rule:ProcessCreate)"
+                  }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "19084" } },
+                { "key": "ID", "value": { "intValue": "1" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:48" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "-" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:48.603" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-63e4-689d-7f19-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "8416" } },
+                {
+                  "key": "Image",
+                  "value": {
+                    "stringValue": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe"
+                  }
+                },
+                { "key": "FileVersion", "value": { "stringValue": "26.1.4" } },
+                {
+                  "key": "Description",
+                  "value": { "stringValue": "Docker Client" }
+                },
+                {
+                  "key": "Product",
+                  "value": { "stringValue": "Docker Client" }
+                },
+                { "key": "Company", "value": { "stringValue": "Docker Inc" } },
+                {
+                  "key": "OriginalFileName",
+                  "value": { "stringValue": "docker-windows-amd64.exe" }
+                },
+                {
+                  "key": "CommandLine",
+                  "value": {
+                    "stringValue": "\"C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe\" context ls --format \"{{json .}}\""
+                  }
+                },
+                {
+                  "key": "CurrentDirectory",
+                  "value": {
+                    "stringValue": "C:\\Users\\임성순\\AppData\\Local\\Programs\\Microsoft VS Code\\"
+                  }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } },
+                {
+                  "key": "LogonGuid",
+                  "value": {
+                    "stringValue": "6c480258-6052-689d-baa9-500200000000"
+                  }
+                },
+                { "key": "LogonId", "value": { "intValue": "38840762" } },
+                { "key": "TerminalSessionId", "value": { "intValue": "3" } },
+                {
+                  "key": "IntegrityLevel",
+                  "value": { "stringValue": "Medium" }
+                },
+                {
+                  "key": "Hashes",
+                  "value": {
+                    "stringValue": "MD5=07C9995E602211EA69C2BE3873CE43C8,SHA256=55E03D65CC573AC6005883D504B7D744167C6893652063BCF369669DDA38E083,IMPHASH=4F2F006E2ECF7172AD368F8289DC96C1"
+                  }
+                },
+                {
+                  "key": "ParentProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-62aa-689d-8016-000000004c00"
+                  }
+                },
+                { "key": "ParentProcessId", "value": { "intValue": "19084" } },
+                {
+                  "key": "ParentImage",
+                  "value": {
+                    "stringValue": "C:\\Users\\임성순\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                  }
+                },
+                {
+                  "key": "ParentCommandLine",
+                  "value": {
+                    "stringValue": "\"C:\\Users\\임성순\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --type=utility --utility-sub-type=node.mojom.NodeService --lang=ko --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --video-capture-use-gpu-memory-buffer --user-data-dir=\"C:\\Users\\임성순\\AppData\\Roaming\\Code\" --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --field-trial-handle=1772,i,4851441016165749377,5233307101798481799,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit --variations-seed-version --mojo-platform-channel-handle=3676 /prefetch:14"
+                  }
+                },
+                {
+                  "key": "ParentUser",
+                  "value": { "stringValue": "RUFFY\\임현빈" }
+                }
+              ],
+              "status": {}
+            },
+            {
+              "traceId": "9ea515337ffcae80c49cdd0ca81a3b14",
+              "spanId": "3e03ca9c8bf04ebf",
+              "parentSpanId": "d79cda5116864bf7",
+              "flags": 257,
+              "name": "docker.exe@Processterminated(rule:ProcessTerminate)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145191544876100",
+              "endTimeUnixNano": "1755145191545932800",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": {
+                    "stringValue": "Processterminated(rule:ProcessTerminate)"
+                  }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "19084" } },
+                { "key": "ID", "value": { "intValue": "5" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:48" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "-" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:48.669" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-63e4-689d-7f19-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "8416" } },
+                {
+                  "key": "Image",
+                  "value": {
+                    "stringValue": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe"
+                  }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } }
+              ],
+              "status": {}
+            },
+            {
+              "traceId": "9ea515337ffcae80c49cdd0ca81a3b14",
+              "spanId": "b284905e52c03351",
+              "parentSpanId": "c8e66980abb378d4",
+              "flags": 257,
+              "name": "conhost.exe@Processterminated(rule:ProcessTerminate)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145191546602000",
+              "endTimeUnixNano": "1755145191546847100",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": {
+                    "stringValue": "Processterminated(rule:ProcessTerminate)"
+                  }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "24424" } },
+                { "key": "ID", "value": { "intValue": "5" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:49" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "-" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:49.676" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-63e3-689d-7c19-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "8312" } },
+                {
+                  "key": "Image",
+                  "value": {
+                    "stringValue": "C:\\Windows\\System32\\conhost.exe"
+                  }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } }
+              ],
+              "status": {}
+            },
+            {
+              "traceId": "9ea515337ffcae80c49cdd0ca81a3b14",
+              "spanId": "5a08e08584d4d9ea",
+              "parentSpanId": "d79cda5116864bf7",
+              "flags": 257,
+              "name": "docker.exe@ProcessCreate(rule:ProcessCreate)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145192557045500",
+              "endTimeUnixNano": "1755145192558060100",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": {
+                    "stringValue": "ProcessCreate(rule:ProcessCreate)"
+                  }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "19084" } },
+                { "key": "ID", "value": { "intValue": "1" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:50" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "-" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:50.695" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-63e6-689d-8119-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "10684" } },
+                {
+                  "key": "Image",
+                  "value": {
+                    "stringValue": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe"
+                  }
+                },
+                { "key": "FileVersion", "value": { "stringValue": "26.1.4" } },
+                {
+                  "key": "Description",
+                  "value": { "stringValue": "Docker Client" }
+                },
+                {
+                  "key": "Product",
+                  "value": { "stringValue": "Docker Client" }
+                },
+                { "key": "Company", "value": { "stringValue": "Docker Inc" } },
+                {
+                  "key": "OriginalFileName",
+                  "value": { "stringValue": "docker-windows-amd64.exe" }
+                },
+                {
+                  "key": "CommandLine",
+                  "value": {
+                    "stringValue": "\"C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe\" context ls --format \"{{json .}}\""
+                  }
+                },
+                {
+                  "key": "CurrentDirectory",
+                  "value": {
+                    "stringValue": "C:\\Users\\임성순\\AppData\\Local\\Programs\\Microsoft VS Code\\"
+                  }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } },
+                {
+                  "key": "LogonGuid",
+                  "value": {
+                    "stringValue": "6c480258-6052-689d-baa9-500200000000"
+                  }
+                },
+                { "key": "LogonId", "value": { "intValue": "38840762" } },
+                { "key": "TerminalSessionId", "value": { "intValue": "3" } },
+                {
+                  "key": "IntegrityLevel",
+                  "value": { "stringValue": "Medium" }
+                },
+                {
+                  "key": "Hashes",
+                  "value": {
+                    "stringValue": "MD5=07C9995E602211EA69C2BE3873CE43C8,SHA256=55E03D65CC573AC6005883D504B7D744167C6893652063BCF369669DDA38E083,IMPHASH=4F2F006E2ECF7172AD368F8289DC96C1"
+                  }
+                },
+                {
+                  "key": "ParentProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-62aa-689d-8016-000000004c00"
+                  }
+                },
+                { "key": "ParentProcessId", "value": { "intValue": "19084" } },
+                {
+                  "key": "ParentImage",
+                  "value": {
+                    "stringValue": "C:\\Users\\임성순\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                  }
+                },
+                {
+                  "key": "ParentCommandLine",
+                  "value": {
+                    "stringValue": "\"C:\\Users\\임성순\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --type=utility --utility-sub-type=node.mojom.NodeService --lang=ko --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --video-capture-use-gpu-memory-buffer --user-data-dir=\"C:\\Users\\임성순\\AppData\\Roaming\\Code\" --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --field-trial-handle=1772,i,4851441016165749377,5233307101798481799,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit --variations-seed-version --mojo-platform-channel-handle=3676 /prefetch:14"
+                  }
+                },
+                {
+                  "key": "ParentUser",
+                  "value": { "stringValue": "RUFFY\\임현빈" }
+                }
+              ],
+              "status": {}
+            },
+            {
+              "traceId": "9ea515337ffcae80c49cdd0ca81a3b14",
+              "spanId": "cef31a55e2a19fd7",
+              "parentSpanId": "d79cda5116864bf7",
+              "flags": 257,
+              "name": "docker.exe@Processterminated(rule:ProcessTerminate)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145192558069600",
+              "endTimeUnixNano": "1755145192558337300",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": {
+                    "stringValue": "Processterminated(rule:ProcessTerminate)"
+                  }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "19084" } },
+                { "key": "ID", "value": { "intValue": "5" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:50" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "-" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:50.758" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-63e6-689d-8119-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "10684" } },
+                {
+                  "key": "Image",
+                  "value": {
+                    "stringValue": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe"
+                  }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } }
+              ],
+              "status": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resource": {
+        "attributes": [
+          { "key": "service.name", "value": { "stringValue": "sysmon-agent" } },
+          {
+            "key": "service.instance.id",
+            "value": { "stringValue": "01455c06-59f9-46d4-9ef8-4afe2bb3e8c0" }
+          },
+          {
+            "key": "telemetry.sdk.name",
+            "value": { "stringValue": "opentelemetry" }
+          },
+          {
+            "key": "telemetry.sdk.language",
+            "value": { "stringValue": "dotnet" }
+          },
+          {
+            "key": "telemetry.sdk.version",
+            "value": { "stringValue": "1.9.0" }
+          }
+        ]
+      },
+      "scopeSpans": [
+        {
+          "scope": { "name": "sysmon.etw" },
+          "spans": [
+            {
+              "traceId": "2f86058b60e21b1a57fcf957e3a579ab",
+              "spanId": "62d25445ae505053",
+              "parentSpanId": "b30f0a52eed7c4ae",
+              "flags": 257,
+              "name": "cmd.exe@ProcessCreate(rule:ProcessCreate)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145189536039500",
+              "endTimeUnixNano": "1755145189537346300",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": {
+                    "stringValue": "ProcessCreate(rule:ProcessCreate)"
+                  }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "5556" } },
+                { "key": "ID", "value": { "intValue": "1" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:47" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "-" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:47.023" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-63e3-689d-7919-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "18028" } },
+                {
+                  "key": "Image",
+                  "value": { "stringValue": "C:\\Windows\\System32\\cmd.exe" }
+                },
+                {
+                  "key": "FileVersion",
+                  "value": {
+                    "stringValue": "10.0.26100.4768 (WinBuild.160101.0800)"
+                  }
+                },
+                {
+                  "key": "Description",
+                  "value": { "stringValue": "Windows Command Processor" }
+                },
+                {
+                  "key": "Product",
+                  "value": {
+                    "stringValue": "Microsoft® Windows® Operating System"
+                  }
+                },
+                {
+                  "key": "Company",
+                  "value": { "stringValue": "Microsoft Corporation" }
+                },
+                {
+                  "key": "OriginalFileName",
+                  "value": { "stringValue": "Cmd.Exe" }
+                },
+                {
+                  "key": "CommandLine",
+                  "value": {
+                    "stringValue": "C:\\WINDOWS\\system32\\cmd.exe /d /s /c \"\"docker\" stats --all --no-trunc --no-stream --format \"{{ json .}}\"\""
+                  }
+                },
+                {
+                  "key": "CurrentDirectory",
+                  "value": {
+                    "stringValue": "C:\\Users\\임성순\\AppData\\Local\\Docker\\"
+                  }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } },
+                {
+                  "key": "LogonGuid",
+                  "value": {
+                    "stringValue": "6c480258-6052-689d-baa9-500200000000"
+                  }
+                },
+                { "key": "LogonId", "value": { "intValue": "38840762" } },
+                { "key": "TerminalSessionId", "value": { "intValue": "3" } },
+                {
+                  "key": "IntegrityLevel",
+                  "value": { "stringValue": "Medium" }
+                },
+                {
+                  "key": "Hashes",
+                  "value": {
+                    "stringValue": "MD5=90242B3940D153095204CCA04B83DCF3,SHA256=55D95D29D54112FC203D8B2D6335031FD0EF26C56C9459F239760C24DADD3F24,IMPHASH=B0F049C014592B156EB1FA857E99CEB9"
+                  }
+                },
+                {
+                  "key": "ParentProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-6066-689d-3114-000000004c00"
+                  }
+                },
+                { "key": "ParentProcessId", "value": { "intValue": "5556" } },
+                {
+                  "key": "ParentImage",
+                  "value": {
+                    "stringValue": "C:\\Program Files\\Docker\\Docker\\frontend\\Docker Desktop.exe"
+                  }
+                },
+                {
+                  "key": "ParentCommandLine",
+                  "value": {
+                    "stringValue": "\"C:\\Program Files\\Docker\\Docker\\frontend\\Docker Desktop.exe\" --reason=open-tray --analytics-enabled=true --name=dashboard"
+                  }
+                },
+                {
+                  "key": "ParentUser",
+                  "value": { "stringValue": "RUFFY\\임현빈" }
+                }
+              ],
+              "status": {}
+            },
+            {
+              "traceId": "2f86058b60e21b1a57fcf957e3a579ab",
+              "spanId": "66592ef7e861854c",
+              "parentSpanId": "2354f43d5a37dc9e",
+              "flags": 257,
+              "name": "docker.exe@ProcessCreate(rule:ProcessCreate)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145189538579500",
+              "endTimeUnixNano": "1755145189539853300",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": {
+                    "stringValue": "ProcessCreate(rule:ProcessCreate)"
+                  }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "18028" } },
+                { "key": "ID", "value": { "intValue": "1" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:47" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "-" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:47.070" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-63e3-689d-7d19-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "8680" } },
+                {
+                  "key": "Image",
+                  "value": {
+                    "stringValue": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe"
+                  }
+                },
+                { "key": "FileVersion", "value": { "stringValue": "26.1.4" } },
+                {
+                  "key": "Description",
+                  "value": { "stringValue": "Docker Client" }
+                },
+                {
+                  "key": "Product",
+                  "value": { "stringValue": "Docker Client" }
+                },
+                { "key": "Company", "value": { "stringValue": "Docker Inc" } },
+                {
+                  "key": "OriginalFileName",
+                  "value": { "stringValue": "docker-windows-amd64.exe" }
+                },
+                {
+                  "key": "CommandLine",
+                  "value": {
+                    "stringValue": "\"docker\"  stats --all --no-trunc --no-stream --format \"{{ json .}}\""
+                  }
+                },
+                {
+                  "key": "CurrentDirectory",
+                  "value": {
+                    "stringValue": "C:\\Users\\임성순\\AppData\\Local\\Docker\\"
+                  }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } },
+                {
+                  "key": "LogonGuid",
+                  "value": {
+                    "stringValue": "6c480258-6052-689d-baa9-500200000000"
+                  }
+                },
+                { "key": "LogonId", "value": { "intValue": "38840762" } },
+                { "key": "TerminalSessionId", "value": { "intValue": "3" } },
+                {
+                  "key": "IntegrityLevel",
+                  "value": { "stringValue": "Medium" }
+                },
+                {
+                  "key": "Hashes",
+                  "value": {
+                    "stringValue": "MD5=07C9995E602211EA69C2BE3873CE43C8,SHA256=55E03D65CC573AC6005883D504B7D744167C6893652063BCF369669DDA38E083,IMPHASH=4F2F006E2ECF7172AD368F8289DC96C1"
+                  }
+                },
+                {
+                  "key": "ParentProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-63e3-689d-7919-000000004c00"
+                  }
+                },
+                { "key": "ParentProcessId", "value": { "intValue": "18028" } },
+                {
+                  "key": "ParentImage",
+                  "value": { "stringValue": "C:\\Windows\\System32\\cmd.exe" }
+                },
+                {
+                  "key": "ParentCommandLine",
+                  "value": {
+                    "stringValue": "C:\\WINDOWS\\system32\\cmd.exe /d /s /c \"\"docker\" stats --all --no-trunc --no-stream --format \"{{ json .}}\"\""
+                  }
+                },
+                {
+                  "key": "ParentUser",
+                  "value": { "stringValue": "RUFFY\\임현빈" }
+                },
+                {
+                  "key": "sigma.alert",
+                  "value": {
+                    "stringValue": "087790e3-3287-436c-bccf-cbd0184a7db1"
+                  }
+                },
+                {
+                  "key": "sigma.rule_title",
+                  "value": {
+                    "stringValue": "Potential CommandLine Path Traversal Via Cmd.EXE"
+                  }
+                }
+              ],
+              "status": { "message": "Sigma rule matched", "code": 2 }
+            },
+            {
+              "traceId": "2f86058b60e21b1a57fcf957e3a579ab",
+              "spanId": "e654c861931dafa6",
+              "parentSpanId": "2354f43d5a37dc9e",
+              "flags": 257,
+              "name": "docker.exe@Processterminated(rule:ProcessTerminate)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145191546853900",
+              "endTimeUnixNano": "1755145191547074600",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": {
+                    "stringValue": "Processterminated(rule:ProcessTerminate)"
+                  }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "18028" } },
+                { "key": "ID", "value": { "intValue": "5" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:49" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "-" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:49.690" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-63e3-689d-7d19-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "8680" } },
+                {
+                  "key": "Image",
+                  "value": {
+                    "stringValue": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe"
+                  }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } }
+              ],
+              "status": {}
+            },
+            {
+              "traceId": "2f86058b60e21b1a57fcf957e3a579ab",
+              "spanId": "79383439c302c054",
+              "parentSpanId": "b30f0a52eed7c4ae",
+              "flags": 257,
+              "name": "cmd.exe@Processterminated(rule:ProcessTerminate)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145191547077800",
+              "endTimeUnixNano": "1755145191547554900",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": {
+                    "stringValue": "Processterminated(rule:ProcessTerminate)"
+                  }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "5556" } },
+                { "key": "ID", "value": { "intValue": "5" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:49" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "-" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:49.696" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-63e3-689d-7919-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "18028" } },
+                {
+                  "key": "Image",
+                  "value": { "stringValue": "C:\\Windows\\System32\\cmd.exe" }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } }
+              ],
+              "status": {}
+            },
+            {
+              "traceId": "2f86058b60e21b1a57fcf957e3a579ab",
+              "spanId": "43258ff960aa0d72",
+              "parentSpanId": "d352afc60939a0a9",
+              "flags": 257,
+              "name": "conhost.exe@Processterminated(rule:ProcessTerminate)",
+              "kind": 1,
+              "startTimeUnixNano": "1755145192555106400",
+              "endTimeUnixNano": "1755145192557013000",
+              "attributes": [
+                { "key": "user_id", "value": { "stringValue": "vina" } },
+                {
+                  "key": "EventName",
+                  "value": {
+                    "stringValue": "Processterminated(rule:ProcessTerminate)"
+                  }
+                },
+                { "key": "sysmon.ppid", "value": { "intValue": "5556" } },
+                { "key": "ID", "value": { "intValue": "5" } },
+                {
+                  "key": "TimeStamp",
+                  "value": { "stringValue": "2025-08-14 오후 1:19:49" }
+                },
+                { "key": "sysmon.opcode", "value": { "stringValue": "Info" } },
+                {
+                  "key": "ProviderGuid",
+                  "value": {
+                    "stringValue": "5770385f-c22a-43e0-bf4c-06f5698ffbd9"
+                  }
+                },
+                { "key": "RuleName", "value": { "stringValue": "-" } },
+                {
+                  "key": "UtcTime",
+                  "value": { "stringValue": "2025-08-14 04:19:49.698" }
+                },
+                {
+                  "key": "ProcessGuid",
+                  "value": {
+                    "stringValue": "6c480258-63e3-689d-7a19-000000004c00"
+                  }
+                },
+                { "key": "ProcessId", "value": { "intValue": "23148" } },
+                {
+                  "key": "Image",
+                  "value": {
+                    "stringValue": "C:\\Windows\\System32\\conhost.exe"
+                  }
+                },
+                { "key": "User", "value": { "stringValue": "RUFFY\\임현빈" } }
+              ],
+              "status": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
